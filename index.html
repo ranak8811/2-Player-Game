@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Two Player Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="game-title">Let's play a game</h1>
+      <h1 class="score-display">
+        <span id="p1Score" class="score">0</span> to
+        <span id="p2Score" class="score">0</span>
+      </h1>
+      <p class="winning-score">
+        Max score to win: <span id="wScore" class="winning-score-value">5</span>
+      </p>
+      <p class="timer">Time Remaining: <span id="timer">5:00</span></p>
+      <div class="text-box input-container">
+        <input
+          type="number"
+          id="inputScore"
+          placeholder="Enter Winning Score"
+        />
+      </div>
+
+      <div class="text-box">
+        <button class="btn btn-primary" id="p1Btn">Player 1</button>
+      </div>
+      <div class="text-box">
+        <button class="btn btn-primary" id="p2Btn">Player 2</button>
+      </div>
+      <div class="text-box">
+        <button class="btn btn-danger" id="resetBtn">Reset</button>
+      </div>
+      <div id="winnerMessage" style="display: none"></div>
+    </div>
+    <div class="container">
+      <p class="how-to-play"><strong>How to play:</strong></p>
+      <p class="how-to-play">
+        1. Set the winning score using the input field at the top.
+      </p>
+      <p class="how-to-play">
+        2. Click the "Player 1" or "Player 2" buttons to increase your score.
+      </p>
+      <p class="how-to-play">
+        3. The game will end when one player reaches the winning score or when
+        time runs out.
+      </p>
+      <p class="how-to-play">
+        4. To start a new game, click the "Reset" button.
+      </p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

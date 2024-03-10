@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa; /* Light background color */
+  margin: 0; /* Remove default body margin */
+}
+
+.container {
+  width: 80%;
+  max-width: 600px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 0 auto; /* Center horizontally */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center vertically */
+}
+
+h1,
+p {
+  font-style: italic;
+  font-weight: bold;
+  color: #040b28; /* Dark color for text */
+}
+
+.btn {
+  font-style: italic;
+  font-weight: bold;
+  color: #111010; /* Dark color for text */
+  background-color: #ccc; /* Light background color for buttons */
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+  margin-bottom: 10px;
+}
+
+.btn-danger {
+  background-color: #d49595 !important; /* Red color for Reset button */
+}
+
+#gameTitle {
+  font-size: 24px; /* Increase font size for game title */
+  margin-bottom: 20px;
+}
+
+#inputScore {
+  width: 100%; /* Make input option take full width */
+  font-size: 18px; /* Increase font size for input */
+}
+
+#winnerMessage {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center; /* Align winner message in the center */
+  margin-top: 10px;
+}
+
+.winner {
+  color: green;
+}
+
+/* Add to style.css */
+
+.game-title {
+  color: #007bff; /* Blue color */
+}
+
+.winning-score {
+  font-size: 24px; /* Bigger text */
+}
+
+.winning-score-value {
+  color: orange; /* Orange color */
+}
+
+.score-display {
+  color: #111010; /* Default color */
+}
+
+.input-container {
+  width: fit-content; /* Adjust width to fit content */
+  margin-bottom: 10px; /* Add margin */
+}
+
+.how-to-play {
+  font-style: normal; /* Change font style to normal */
+  font-weight: bold; /* Keep font weight bold */
+}
